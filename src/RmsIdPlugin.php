@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Belz\RmsId;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class RmsIdPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'rmsid';
     }
 
     public function register(Panel $panel): void

@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Belz\RmsId\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class RmsIdCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'rmsid';
 
     public $description = 'My command';
 
